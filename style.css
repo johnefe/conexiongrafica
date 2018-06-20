@@ -11,6 +11,14 @@
     10. CLIENT AREA
     11. FOOTER AREA
     12. SCROLL TO TOP AREA
+
+    colors
+
+    yellow strong
+    #FFA000
+    yellow clarito
+    #FFE082
+
 ----------------------------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
@@ -31,12 +39,12 @@
     background: rgba(0, 0, 0, 0) url("img/slider/slide_3.jpg") no-repeat scroll center center / cover;
 }
 
-.welcome-slider-area .owl-controls {
+/*.welcome-slider-area .owl-controls {
     margin-top: -80px;
     position: absolute;
     right: 7%;
     top: 50%;
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
@@ -60,12 +68,14 @@
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     width: 50px;
+    display: none;
 }
 
 .welcome-slider-area .owl-nav > div:hover {
     background: #31dc89 none repeat scroll 0 0;
-    color: #ffffff;
-}
+    color: red;
+    display: none;
+}*/
 
 /*--------------------------------
     2. FEATURES AREA
@@ -76,20 +86,21 @@
     -webkit-box-shadow: 0 9px 9px 0 #c7c7c7;
     box-shadow: 0 9px 9px 0 #c7c7c7;
     margin-top: -100px;
-    padding-top: 30px;
+    padding-top: 10px;
     position: relative;
     z-index: 1;
 }
 
 .features-box-icon {
-    background: #d3ffea none repeat scroll 0 0;
-    border-radius: 5px;
-    color: #31dc89;
-    height: 70px;
-    margin-bottom: 40px;
-    padding-top: 15px;
-    text-align: center;
-    width: 70px;
+    background: #FFE082 none repeat scroll 0 0;
+    border-radius: 50px;
+    color: #FFA000;
+    height: 90px;
+    margin-bottom: 15px;
+    padding-top: 25px;
+    margin-left: 35%;
+    text-align: center !important;
+    width: 90px;
 }
 
 /*----------------------------------
@@ -257,19 +268,21 @@ a.enroll-button:hover {
 }
 
 .testmonial-area .owl-nav > div:hover {
-    background: #586082 none repeat scroll 0 0;
+    background: red none repeat scroll 0 0;
 }
 
 .owl-carousel:hover .owl-nav > div.owl-next {
     opacity: 1;
     right: 0;
     visibility: visible;
+    display: none;
 }
 
 .owl-carousel:hover .owl-nav > div.owl-prev {
     left: 0;
     opacity: 1;
     visibility: visible;
+    display: none;
 }
 
 /*.testmonial-area .owl-controls {
@@ -473,7 +486,7 @@ a.enroll-button:hover {
 }
 
 .subscriber-form button {
-    background: #d3ffea none repeat scroll 0 0;
+    background: #00BFA5 none repeat scroll 0 0;
     border: 0 none;
     border-radius: 0 50px 50px 0;
     color: #171932;
@@ -490,7 +503,7 @@ a.enroll-button:hover {
 }
 
 .subscriber-form button:hover {
-    background: #31dc89 none repeat scroll 0 0;
+    background: #00BFA5 none repeat scroll 0 0;
     color: #ffffff;
 }
 
@@ -524,7 +537,7 @@ label.mt10.valid {
 ----------------------------------*/
 
 .scrolltotop {
-    background: #404873 none repeat scroll 0 0;
+    background: #FFA000  none repeat scroll 0 0; /* old color #404873*/
     bottom: 20px;
     color: #ffffff;
     display: none;
@@ -536,9 +549,13 @@ label.mt10.valid {
     text-align: center;
     width: 40px;
     z-index: 9;
+    border-radius: 20px;
+}
+.up:hover{
+    color:#fff !important;
 }
 
-.scrolltotop:hover {
-    background: #3ee792;
-    color: #ffffff;
-}
+/*.scrolltotop:hover {
+    background: #00BFA5;/* old color #3ee792 nuevo color verde-azulado #00BFA5*/
+  /*  color: #ffffff;
+}*/
