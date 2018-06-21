@@ -2,21 +2,6 @@
     8. SCREENSHOT AREA
 ---------------------------------*/
 
-/*.screenshot-slider-mockup {
-    left: calc(50% - 2px);
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 9;
-}
-
-.screenshot-slider-mockup img {
-    display: block;
-    margin: 0 auto;
-    width: 71%;
-}*/
-
 .screenshot-slider {
     background: rgba(0, 0, 0, 0) url("../../../assest/img/screenshot/screenshot-mobile-mockup.png") no-repeat scroll center center / auto 100%;
 }
@@ -54,12 +39,7 @@
 -----------------------------------*/
 
 @media only screen and (min-width: 1920px) {
-    /*.screenshot-slider-mockup {
-        left: calc(50% - 2.5px);
-    }
-    .screenshot-slider-mockup img {
-        width: 85%;
-    }*/
+ 
     .screenshot-area .screenshot-slider-2 .single-screenshot {
         margin: 50px 15px 50px 10px;
     }
@@ -74,9 +54,6 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 
-    /*.screenshot-slider-mockup img {
-        width: 52%;
-    }*/
     .screenshot-area .single-screenshot {
         margin: 37px 0;
     }

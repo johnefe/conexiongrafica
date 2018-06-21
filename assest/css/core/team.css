@@ -31,7 +31,7 @@
 }
 
 .team-style-1 .social-bookmark li a:hover {
-    background: #8256ff none repeat scroll 0 0;
+    background: red none repeat scroll 0 0;
     border-color: #8256ff;
     color: #ffffff;
 }

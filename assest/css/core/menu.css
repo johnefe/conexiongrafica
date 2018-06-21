@@ -40,11 +40,6 @@
     transition: all 0.3s ease 0s;
 }
 
-/*ul#nav {
-    float: right;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-}*/
 
 ul#nav {
     float: none;
@@ -69,9 +64,6 @@ ul#nav li a {
     transition: all 0.3s ease 0s;
 }
 
-/*---------------------------
-    MENU COLOR VARIENT
-----------------------------*/
 
 /*--------------------------
     MENU DEFAULT
@@ -95,7 +87,7 @@ ul#nav li li a {
 
 ul#nav li a:hover,
 ul#nav li.active > a {
-    color: #31dc89;
+    color: #00BFA5; /* color old #31dc89*/
 }
 
 /*-------------------------
@@ -185,13 +177,6 @@ ul#nav li.active > a {
 .is-sticky .menu-four ul#nav li a {
     color: #4d557d;
 }
-
-/*
-.is-sticky .menu-four ul#nav li ul li li a,
-.is-sticky .menu-four ul#nav li.active ul li li a {
-    color: #ffffff;
-}
-*/
 
 .menu-four ul#nav li a:hover,
 .menu-four ul#nav li.active a,

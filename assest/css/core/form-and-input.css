@@ -38,10 +38,6 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-    /*color: #666;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    padding: 3px;*/
     outline: 0;
     width: 100%;
 }
@@ -63,7 +59,6 @@ input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus,
 select:focus {
-    /*color: #111;*/
     outline: 0;
 }
 
@@ -78,7 +73,5 @@ textarea {
 embed,
 iframe,
 object {
-    /*max-width: 100%;
-    height: auto;*/
     width: 100%;
 }
