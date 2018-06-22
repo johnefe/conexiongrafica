@@ -18,6 +18,10 @@
     #FFA000
     yellow clarito
     #FFE082
+    verde azulado 
+    #00BFA5
+    gris oscuro
+    #424242
 
 ----------------------------------------------------------------------------------------*/
 
@@ -91,20 +95,25 @@
 }
 
 a.enroll-button {
-    background: #d3ffea none repeat scroll 0 0;
-    border-radius: 50px;
-    color: #0be27a;
+    background: #00BFA5 none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #fff;
     padding: 10px 15px;
     text-transform: capitalize;
 }
 
 a.enroll-button:hover {
-    background: #171932 none repeat scroll 0 0;
+    background: #424242 none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+.enroll-send:hover{
+    background: #424242 none repeat scroll 0 0 !important;
     color: #ffffff;
 }
 
 .course-price {
-    color: #0be27a;
+    color: #00BFA5;
     float: right;
     font-size: 22px;
     font-weight: 700;
