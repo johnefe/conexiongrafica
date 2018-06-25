@@ -55,3 +55,52 @@ php artisan make:auth
 
 php artisan migrate //para migrar a la bd
 php artisan migrate:rollback //devolver una migracion
+
+php artisan make:controller UsersController  para crear un controlador 
+
+--> blade -- template system / template engiene
+
+controller --> flujo de datos, interaccion
+model --> logica, regla de validacion 
+view --> capa de representacion 
+creamos la tabla post
+php artisan make:migration create_posts_table --create=posts 
+
+https://www.easylaravelbook.com/blog/creating-a-hasmany-relation-in-laravel-5/
+
+cuando se crea un nuevo proyecto hay un problema en las migraciones
+
+y esque falta agregar una sentencia en el archivo appServiceProvider.php
+
+use Illuminate\Support\Facades\Schema;
+
+public function boot()
+    {
+        //
+        Schema::defaultStringLength(150);
+    }
+
+//-----------------------------------
+ahora creamos el modelo de Post 
+php artisan make:model Post
+
+//-------------------
+libreria para ver registros y crear nuevos desde consola
+php artisan tinker
+
+$user= App\User::find(1)
+
+$post 0 new App\Post;
+
+$post->title="laravel 2019"
+$post->body="este es el cuerpo del post";
+$post->user_id = $user_id
+Spost->save()
+
+$user->posts
+$post = App\Post::find(1)
+
+/******************************************
+si vamos a utilizar tablas que ya estan creadas y no vamos a migrar entonces debemos crear el modelo
+php artisan make:model Comment
+
