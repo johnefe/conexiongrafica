@@ -50,3 +50,8 @@ en app/kernel se crean los midleware que atrapamos el request y si estalogueado 
 tambien para permisos y cosas etc
 
 
+--- en la consola
+php artisan make:auth
+
+php artisan migrate //para migrar a la bd
+php artisan migrate:rollback //devolver una migracion
