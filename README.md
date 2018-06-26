@@ -104,3 +104,20 @@ $post = App\Post::find(1)
 si vamos a utilizar tablas que ya estan creadas y no vamos a migrar entonces debemos crear el modelo
 php artisan make:model Comment
 
+<!--	@foreach($media as $media)
+								<li>{{$user->name}}
+								<div class="well">
+									@foreach($media->posts as $post)
+										<strong>{{$post->title}}</strong>
+									@endforeach
+								</div>
+								<div class="alert alert-info">
+									@foreach($media->comments as $comment)
+										<strong>{{$comment->body}}</strong>
+									@endforeach
+								</div>
+								
+								</li>
+							@endforeach-->
+
+{{$users->title_app}}
